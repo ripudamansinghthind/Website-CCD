@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">	
+
+<title>Cafe Coffee Day</title>
+<link href="CSS/start.css" rel="stylesheet" type="text/css" />
+<link href="CSS/contact.css" rel="stylesheet" type="text/css" />
+<meta name="author" content="Ripudaman Singh Thind, Yash Singh"/>
+	<meta name="keywords" content="coffee, curry paste, food"/>
+	<meta name="description" content="Cafe Coffee day is one of the best coffee places in india, so should be the website"/>
+
+
+<script>
+function validateForm() 
+{
+    var x = document.forms["Coffee"]["customername"].value;
+    if (x == "") {
+        alert("Name must be filled out");
+        return false;
+    }
+}
+</script>
+</head>
+
+<body>
+<nav id="nav">
+	
+		  <ul id="link7" style="width:100%;">
+			<li><a href="../index.html"><img src="IMAGES/logo.png" alt="CCD Logo"/></a></li>
+			<li><a class="bgf" href="cafemenu.html">Cafe Menu</a></li>
+		    <li><a class="bgf" href="team.html">team</a></li>
+		    <li><a class="bgf" href="aboutus.html">ABOUT US</a></li>
+		    <li><a class="bgf" href="contact.html">contact us</a></li>
+		    <li><a class="bgf" href="x-ref.html">cross-reference</a></li>
+		  </ul>
+		  </nav>
+<div id="whole-container">		  
+<div class="video">     
+<video class="vids"controls  autoplay loop muted align="left" height="40%"style="width: 100%;">
+  <source src="VIDEOS/contactus.mp4" type="video/mp4">
+  </video>
+  </div>
+
+
+    <section>
+      <h1 style="color:#FFF;">Contact Us</h1>
+        <aside id="rotateaside"></aside>
+          <p>Required information is marked by an asterisk (*)</p>
+
+        <form id="Coffee" name="Coffee">
+
+      		<fieldset id="customerInfo">
+      			<legend>Customer Information</legend>
+
+      			<label for="customername">Name *</label>
+      			<input type="text" name="customername" id="customername"
+      			placeholder="First and Last Name"
+      			required="required" />
+
+      			<label for="address">Address</label>
+            <textarea name="address"></textarea>
+
+      			<label for="phone">Phone Number *</label>
+      			<input type="tel" name="phone" id="phone"
+      			placeholder="(nnn) nnn-nnnn"
+      			required="required" />		
+
+            <label for="email">Email</label>
+            <input type="email" class="form-control" name="email" id="email" placeholder="abcd@email.com" data-rule="email" data-msg="Please enter a valid email" required />
+          		<label for="comments">Comments</label>
+       			<textarea name="comments"></textarea>
+            <label for="info">Where did you hear about us? <br> Select all that apply </label>
+			<select name="infoSrc" id="info" size="3" multiple>
+			<option value="internet">Internet</option>
+			<option value="mag">Magazine</option>
+			<option value="word">Gossiping</option>
+			<option value="other">Other</option>
+			</select>
+			<div id="submitdiv">
+      			<button type="submit" id="submit" onsubmit="return validateForm()">Submit</button>
+            </div>
+
+		  </fieldset>
+       	
+      	</form>
+		<br>
+		<br>
+		<br>
+   </section>
+</div>
+<footer id="footer">
+			<div id="container">
+				<div class="block"> &copy;Cafe Coffee Day</div>
+				<div class="block"> 
+					<script type="text/javascript">
+						var x = new Date(document.lastModified);
+						document.write("Last modified on: " + x +"");
+					</script>
+				</div>
+				<div class="block">
+					<script type="text/javascript">
+						document.write("Current date: ");
+						document.write(Date());
+				  </script> 
+				</div>
+			</div>
+		</footer>
+</body>
+</html>
+  

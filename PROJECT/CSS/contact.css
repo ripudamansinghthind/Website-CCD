@@ -1,0 +1,96 @@
+#customerInfo {
+	width: 50%;
+	background-color: rgba(0, 0, 0, 0.6);}
+
+
+legend {
+	color:#FFF;
+	text-align: center;}
+
+label {
+	color:#FFF;
+	display: block;
+	font-size: 0.8em;
+	width: 40%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-left: 5px;}
+
+input {
+	display: block;
+	float: left;
+	width: 50%;
+	margin-top: 5px;
+	margin-bottom: 5px;}
+
+textarea {
+	display: block;
+	width: 50%;	margin-top: 5px;
+	margin-bottom: 5px;
+	height: 100px;}
+
+select {									
+	float: left;
+	font-size: 0.8em;
+	margin: 5px 5px;
+	width: 50%;}
+
+input:focus:valid {																	
+	background: rgb(220, 255, 220) url(contactus.jpg) bottom right no-repeat;
+	-o-background-size: contain:
+	-moz-background-size: contain;
+	-webkit-background-size: contain;
+	background-size: contain;}
+
+input:focus:invalid {
+	background: rgb(255, 232, 233) url(contactus.jpg) bottom right no-repeat;
+	-o-background-size: contain:
+	-moz-background-size: contain;
+	-webkit-background-size: contain;
+	background-size: contain;}
+
+#submitdiv {
+	text-align: center;
+	clear: both;}
+
+#submit {
+	width: 150px;
+	float: none;
+	margin: 0px 0px;
+	margin-left: auto;
+	margin-right: auto;}
+div#whole-container
+{
+background-color:#5E412F;
+background-repeat: no-repeat;
+background-size:cover;	
+margin:0;
+		
+}
+
+section p {	
+	color:#FFF;
+	margin: 15px;}
+
+aside {							
+	border: 3px solid #FFF;
+	color: #FFF;
+	float: right;
+	margin: 50px;
+	width: 35%;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background-image: url(../IMAGES/last.gif);
+	background-clip: padding-box;
+	background-origin: padding-box;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	padding: 10px;
+	height: 200px;
+	box-shadow:5px 10px #000;}
+
+aside:hover {
+	transform: rotate(320deg);}

@@ -1,0 +1,15 @@
+Welcome to Cafe Coffee Day!
+
+This text file will give you a quick walkthrough of our website, webpages and how to navigate through it.
+
+How to Navigate?
+On each Web page of the site, there is a navigation menu bar which links to five different web pages ( Cafe Menu, Team, About Us, Contact Us, Cross-reference page). You can visit any page by simply clicking on them.
+Apart from these in index page before footer there is link to CCD's Facebook, Instagram and Youtube page.
+
+If you wish to come back to the index page, just simply click on the CCD's logo.
+
+What different pages shows?
+1) Cafe Menu: It shows the whole menu of CCD including beverages, what's new and 	      food.
+2) Team: It shows our wonderful, hardworking team that work so hard to keep the 	 cafe going.
+3) About us: This page give the users information about when we were established, our achievements, range of outlets and our aims.
+4)Contact Us: On this web page, the user can send any message and suggestion to the cafe. 

@@ -1,0 +1,82 @@
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: white;
+	position: relative;
+}
+
+html, body {
+    overflow: auto;
+}
+
+label {
+	font-family: Helvetica;
+}
+
+p, a, li {
+	text-indent:5px;
+	margin: 0px;
+	font-family: Helvetica;
+	color: #212121;
+}
+
+h2{
+	margin: 0px;
+	font-variant:small-caps;
+
+}
+h3{
+	margin:0px;
+	font-style:italic;
+	text-transform:uppercase;
+}
+
+a.regular-link {
+	color: #00B0FF;
+}
+
+
+header {
+	background-color: rgba(50, 83, 91, 1.0);
+	background-color: rgb(50, 83, 91);
+	background-color: #32535b;
+	
+}
+
+
+/* TeamList styling */
+
+div hgroup {
+	margin-bottom: 10px;
+}
+
+div hgroup h2 + h3 {
+	text-indent: 10px;
+}
+div a img{
+	opacity:0.5;
+}
+
+div a img.teamPic:active {
+	box-shadow: rgb(167, 47, 47) 5px 5px 5px;
+	
+}
+
+div a img.teamPic:hover {
+	transform: rotate(10deg);
+	opacity: 1;
+}
+
+div.toTop a {
+	color: hsla(0, 44%, 28%, 0.9) ;
+	font-size: 150%;
+	text-align: right;
+	margin: 50px auto;
+	text-shadow: rgba(167, 47, 47, 0.5) 5px 5px 5px;
+	letter-spacing: 2px;
+	word-spacing: 3px;
+}
+
+
+

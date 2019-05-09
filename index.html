@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title> Cafe Coffee Day</title>
+	
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet" >
+	
+	<link href="PROJECT/CSS/responsive.css" rel="stylesheet" type="text/css">
+	<link href="PROJECT/CSS/start.css" rel="stylesheet" type="text/css">
+	<meta name="author" content="Ripudaman Singh Thind, Yash Singh"/>
+	<meta name="keywords" content="coffee, curry paste, food"/>
+	<meta name="description" content="Cafe Coffee day is one of the best coffee places in india, so should be the website"/>
+
+<!--CSS Styles--> 
+<style>
+	
+* {
+margin: 0px;
+box-sizing: border-box;
+}
+
+body {
+font-family: Verdana, sans-serif;
+}
+
+.mySlides 
+{
+display: none;
+}
+
+img {
+vertical-align: middle;
+}
+
+/* Slideshow container */
+
+.slideshow-container 
+{
+  width:100%;
+  position: relative;
+}
+
+
+
+/* The dots/bullets/indicators */
+
+.dot {
+position:relative;
+height: 15px;
+width: 15px;
+margin: 0px 2px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+
+.fade {
+-webkit-animation-name: fade;
+-webkit-animation-duration: 1.5s;
+animation-name: fade;
+animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+
+
+
+
+
+
+/*container section styling*/
+
+section#firstsection, #container
+{
+background-image:url(PROJECT/IMAGES/background4.jpg);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-size: cover;
+}
+
+section#start1, #start2, #start3, #start4
+{
+padding: 165px 0px 0px 0px;
+position: relative;
+}
+
+
+section#start5
+{
+padding: 165px 0px 600px 0px;
+position: relative;
+}
+
+/*Text styling*/
+
+.ourmenutext{
+text-decoration:none;
+font-family: 'Monoton', cursive;
+font-size: 100px;
+color: white;
+position:absolute;
+top: 90%;
+left: 25%;
+transform: translate(-50%, -50%);
+}
+
+.ourteamtext{
+font-family: 'Monoton', cursive;
+font-size: 100px;
+color: white;
+position:absolute;
+top: 50%;
+left: 90%;
+transform: translate(-50%, -50%);
+}
+
+.ourservicestext{
+color: white;
+font-family: 'Monoton', cursive;
+font-size: 80px;
+position:absolute;
+top: 50%;
+left: 10%;
+transform: translate(-50%, -50%);
+}
+
+.contactustext{
+font-family: 'Monoton', cursive;
+font-size: 100px;
+color: white;
+position:absolute;
+top: 50%;
+left:80%;
+transform: translate(-50%, -50%);
+}
+
+.followustext{
+font-family: 'Monoton', cursive;
+text-align:center;
+font-size: 100px;
+letter-spacing:10px;
+color: white;
+position:absolute;
+top: 60%;
+left:50%;
+transform: translate(-50%, -50%);
+}
+
+.slogantext{
+font-family: 'Monoton', cursive;
+font-size: 50px;
+text-align: right;
+color: white;
+position:absolute;
+top: 145%;
+left:50%;
+transform: translate(-50%, -50%);
+}
+
+.Logolast{
+position: absolute;
+top: 105%;
+left: 35%;
+}
+
+/*logo styling*/
+.imagelogos img
+{
+display: inline-block;
+align: left;
+position:relative;
+margin: 0px 2px;
+display: inline;
+transition: background-color 0.6s ease;
+}
+</style>  
+</head>
+
+
+<body>
+
+<header>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="PROJECT/IMAGES/slider1.png" alt="Slider picture 1" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="PROJECT/IMAGES/slider2.jpg" alt="Slider picture 2" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="PROJECT/IMAGES/slider3.jpg" alt="Slider picture 3" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="PROJECT/IMAGES/slider4.png" alt="Slider picture 4" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="PROJECT/IMAGES/slider5.jpg" alt="Slider picture 5" style="width:100%">
+</div>
+
+</div>
+
+<br>
+
+<div id="DOTS" align="center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+</header>
+
+
+<nav id="nav">
+	 <ul id="link7" style="width:100%;">
+			<li><a href="index.html"><img src="PROJECT/IMAGES/logo.png" alt="CCD Logo"/></a></li>
+			<li><a class="bgf" href="PROJECT/cafemenu.html"> CAFE MENU</a></li>
+		    <li><a class="bgf" href="PROJECT/team.html">TEAM</a></li>
+		    <li><a class="bgf" href="PROJECT/aboutus.html">ABOUT US</a></li>
+		    <li><a class="bgf" href="PROJECT/contact.html">CONTACT US</a></li>
+		    <li><a class="bgf" href="PROJECT/x-ref.html">CROSS-REFERENCE</a></li>
+		  </ul>
+		</nav>
+
+<br>
+<br>
+
+<section id="firstsection" style="position:relative;">
+
+
+<section id="start1" style="position: relative;">
+		<div id="about" style="position:relative;">
+		<img src="PROJECT/IMAGES/ourmenu.jpg" id="okay" alt="Picture section 1" width="100%" height="50%"/>	
+		<a href="PROJECT/cafemenu.html"><div class="ourmenutext"> TRY OUR MENU </div></a>
+		</div>
+</section>
+
+<section id="start2">	
+		<div id="about" style="position:relative;">
+		<img src="PROJECT/IMAGES/ourteambanner.jpg" id="okay" alt="Picture section 2" width="100%" height="50%"/>
+		<a href="PROJECT/team.html"><div class="ourteamtext"> MEET THE TEAM! </div></a>
+		</div>
+</section>
+
+
+<section id="start3">	
+		<div id="about" style="position:relative;">
+		<img src="PROJECT/IMAGES/servicesbanner.jpg" id="okay" alt="Picture section 3" width="100%" height="50%"/>
+		<a href="PROJECT/aboutus.html"><div class="ourservicestext">KNOW<br>WHAT<br>WE<br>KNOW<br>BEST!</div></a>
+		</div>
+</section>
+
+
+<section id="start4">	
+		<div id="about" style="position:relative;">
+		<img src="PROJECT/IMAGES/section4.jpg" id="okay" alt="Picture section 4" width="100%" height="50%"/>
+		<a href="PROJECT/contact.html"><div class="contactustext">CONTACT <br>YOUR <br>FAVORITE <br> CAFE!</div></a>
+		</div>
+</section>
+
+
+
+<section id="start5">
+		<div id="about" style="position:relative;">
+		<img src="PROJECT/IMAGES/backgroundstart2.jpg" id="okay" alt="Picture section 5" width="100%" height="50%" />
+		<div class="followustext">FOLLOW  US! 
+						<ul class="share">
+			            	<li class="share"><a href="https://www.facebook.com/cafecoffeeday/" target="_blank"><img src="PROJECT/IMAGES/facebook.png" class="share_image" /></a></li>
+							<li class="share"><a href="https://www.youtube.com/user/cafecoffeeday" target="_blank"><img src="PROJECT/IMAGES/youtube.png" class="share_image" /></a></li>
+			            	<li class="share"><a href="https://www.instagram.com/cafecoffeeday/?hl=en" target="_blank"><img src="PROJECT/IMAGES/instagram.png" class="share_image" /></a></li>
+		            	</ul>
+			</div>
+			<div class="slogantext">A LOT CAN <br>HAPPEN OVER A <br>COFFEE! </div>
+			<img src="PROJECT/IMAGES/logo.png" class="Logolast" alt="logo" width="200px" height="200px"/>
+		</div>
+</section>
+</section>
+
+
+
+<footer id="footer">
+			<div id="container">
+				<div class="block"> &copy;Cafe Coffee Day</div>
+				<div class="block"> 
+					<script type="text/javascript">
+						var x = new Date(document.lastModified);
+						document.write("Last modified on: " + x +"");
+					</script>
+				</div>
+				<div class="block">
+					<script type="text/javascript">
+						document.write("Current date: ");
+						document.write(Date());
+				  </script> 
+				</div>
+			</div>
+</footer>
+<script>
+var slideIndex = 0;
+showSlides();
+function showSlides() { 
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) 
+	{
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>		
+
+</body>
+</html>

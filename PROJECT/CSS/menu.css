@@ -1,0 +1,203 @@
+html 
+{
+font-size: 14px; /*base font size*/
+}
+
+*, *:before, *:after 
+{
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+
+/*Remove padding and margin */
+
+ul 
+{
+padding: 0;
+margin: 0;
+list-style-type: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary 
+{
+display: block;
+}
+
+body 
+{
+margin: 0;
+font-size: 1rem; /*root em */
+overflow-x: hidden;
+word-break: keep-all;
+overflow-wrap: break-word;
+word-wrap: break-word; /*allow words to be broken at an arbitrary point*/
+word-spacing: 1.5px;
+-ms-hyphens: auto;
+-moz-hyphens: auto;
+-webkit-hyphens: auto;
+hyphens: auto;
+line-height: 1.5;
+font-family: Arial, Helvetica, sans-serif, 'Open Sans';
+}
+
+
+/*LINK STATES*/
+a {
+text-decoration: none;
+transition: all 0.558s ease-out !important;
+-webkit-transition: all 0.558s ease-out !important;
+-moz-transition: all 0.558s ease-out !important;
+-o-transition: all 0.558s ease-out !important;
+}
+
+a:link {
+color: #FFF;
+}
+
+a:visited {
+color: inherit;
+color: #ce3c46;
+}
+
+a:hover {
+color: rgba(255, 255, 255, 0.68);
+transition: all 0.558s ease-out !important;
+-webkit-transition: all 0.558s ease-out !important;
+-moz-transition: all 0.558s ease-out !important;
+-o-transition: all 0.558s ease-out !important;
+}
+
+
+a:active {
+color: rgba(128, 128, 128, 0.50);
+}
+
+
+/*Headings*/
+
+h3 {
+font-size: 1.17rem;
+margin: 1em 0;
+}
+
+
+/*------------
+Clearance Rule
+------------
+*/
+
+.clearfix:before,
+.clearfix:after {
+content: "" !important;
+display: table !important;
+}
+
+.clearfix:after {
+clear: both !important;
+}
+
+.clearfix:after {
+*zoom: 1 !important;
+}
+    
+
+/*for IE6*/
+
+* html .clearfix {
+height: 1%;
+}
+
+
+/*for IE7*/
+
+*:first-child + html .clearfix {
+min-height: 1px;
+}
+.portfolio 
+{
+padding: 2% 5%;
+background: #6C4F3D;
+}
+
+.portfolio .shots .shot 
+{
+width: 25%;
+float: left;
+}
+
+.portfolio h1 
+{
+font-size: 1.4rem;
+line-height: 3;
+background-color:#FFF;
+padding-left: 60px;
+background-position: center left;
+color: #f1f1f1;
+text-transform: uppercase;
+}
+
+.portfolio h3 
+{
+color: #f1f1f1;
+text-transform: uppercase;
+}
+
+/*Top menu*/
+
+.portfolio .categories ul > li 
+{
+padding: 10px 0px 0px 2px;
+border-bottom: 0.05rem solid rgb(255,255,255);
+float: left;
+}
+
+.portfolio .categories ul > li > a 
+{
+display: block;
+padding: 10px 40px 5px 40px;
+font-size:200%;
+}
+
+
+/*Image effect with Filter */
+
+.portfolio img 
+{
+filter: contrast(180%);
+transition: 1s filter linear;
+-webkit-transition: 1s filter linear;
+-moz-transition: 1s filter linear;
+-o-transition: 1s filter linear;
+border-radius: 8px;
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+opacity:0.5;
+}
+
+.portfolio img:hover 
+{
+filter: contrast(0);
+-webkit-filter: sepia(0);
+-moz-filter: sepia(0);
+opacity:1;
+}
+
+
+/*contrast effect*/
+
+.portfolio img 
+{
+filter: contrast(180%);
+transition: 1s filter linear;
+-webkit-transition: 1s filter linear;
+-moz-transition: 1s filter linear;
+-o-transition: 1s filter linear;
+}
+
+.portfolio img.thumb {
+width: 90%;
+}
+
+

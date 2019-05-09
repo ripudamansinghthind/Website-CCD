@@ -1,0 +1,123 @@
+/* Navigation styles */
+*{
+	margin:0px;
+}
+html{
+	 position: relative;
+    min-height: 100%;
+}
+nav {
+	position: sticky;
+	top: 0;
+	top: 0;
+	left: 0;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	width: 100%;
+	background-color: #3d3d29;
+	transition: all 0.4s ease;
+	z-index:1;
+
+}
+nav.sticky {
+	background-color: hsla(0, 0%, 3%, 0.9);
+	transition: all 0.4s ease;
+}
+nav img {
+	height: 40px;
+	margin-left: 10%;
+	display: block;
+	float: left;
+	transition: all 0.4s ease;
+}
+nav ul {
+	margin: 0 0 0 0;
+	padding: 0;
+	display: block;
+	float: right;
+	background-color:#FFF;
+	opacity:0.9;
+}
+nav ul li {
+	display: block;
+	float: left;
+	
+}
+
+nav > ul > li > a {
+	color: rgba(182, 0, 17,0.8);
+	display: block;
+	padding: 0px 60px;
+	margin-bottom:10px;
+	text-decoration: none;
+	text-align:center;
+	font-size: 1.1em;
+	font-weight:bold;
+	text-transform: uppercase;
+}
+nav ul li a.bgf:hover {
+   /*background-color:rgb(50,50,50);*/ 
+   /*border-bottom: #000 2px solid;*/
+	color:#000;
+   transition: all 1s ease;
+   }
+   
+ul.share {
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+
+		}
+
+li.share {
+	display:inline;
+	list-style-type: none;
+}
+
+.share_image {
+	width: 270px;
+	height: auto;
+}
+
+.share_image:hover {
+	opacity: 0.3;
+}
+
+/* Footer styles */
+footer {
+	position: static;
+	background-color:rgba(0,0,0,0.7) !important;
+	color: rgb(255,255,255);
+	padding: 30px 20px 50px 20px;
+	font-size:1.1em;
+}
+
+footer div#container {
+	width: 100%;
+}
+footer div.block {
+	display:block;
+	float:left;
+	width:33.3%;
+}
+
+footer div.block:nth-child(2) {
+	text-align: center;
+}
+
+footer div.block:nth-child(3) {
+	text-align: right;
+}
+img#okay
+{
+	position: relative;
+}
+img#link4
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	float: left;;
+    width: 300px;
+
+}

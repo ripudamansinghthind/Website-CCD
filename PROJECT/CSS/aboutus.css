@@ -1,0 +1,142 @@
+*{
+	margin: 0px;
+}
+
+section#startabout2{
+	
+	background-image:url(../IMAGES/pic.jpg);
+	background-size:cover;
+	background-attachment:fixed;
+}
+
+
+
+@font-face {
+    font-family: "My Custom Font";
+    src: url(http://www.example.org/mycustomfont.ttf) format("truetype");
+}
+
+p.customfont { 
+    font-family: "My Custom Font", Verdana, Tahoma;
+}
+p:first-letter {
+	
+	float:left;
+	font-size:60px;
+	line-height:1;
+	font-weight:bold;
+	margin-right:9px;
+}
+h1 {	
+	
+	text-align:middle;
+	text-shadow:2px 2px #7F7F7F; 
+	color: #5E412F;
+	font-size: 4em;
+	text-align: center;
+}
+dd{
+	
+	color:#7F7F7F;
+	text-align:center;
+	font-weight:bolder;
+	font-size:50px;
+}
+
+p ,dt{	
+	
+	color: #FFF;
+	font-size: 2em;
+	text-align: left;
+	pading: 5px;
+	margin: 0% 25%;
+	
+}
+
+
+@media only screen and (min-width: 601px) and (max-width:768px)
+	{
+		   body {
+      	background-image:url(background_AboutUs.jpg);
+		background-repeat:no-repeat;
+		background-position:center center;
+		background-attachment:fixed;
+		background-size:cover;
+		}
+	p 
+	{
+		margin:0px;
+	}
+		
+	}
+@media only screen and (max-width: 600px) {
+    body {
+      	background-image:url(background_AboutUs.jpg);
+		background-repeat:no-repeat;
+		background-position:center center;
+		background-attachment:fixed;
+		background-size:cover;
+		}
+	p 
+	{
+		margin:0px;
+	}
+}
+@media only screen and (max-width: 321px)
+{   body {
+      	background-image:url(background_AboutUs.jpg);
+		background-repeat:no-repeat;
+		background-position:center center;
+		background-attachment:fixed;
+		background-size:cover;
+		}
+	p 
+	{
+		margin:0px;
+	}
+	
+}
+@media only screen and (max-width: 450px)
+{
+	   body {
+      	background-image:url(background_AboutUs.jpg);
+		background-repeat:no-repeat;
+		background-position:center center;
+		background-attachment:fixed;
+		background-size:cover;
+		}
+	p 
+	{
+		margin:0px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
